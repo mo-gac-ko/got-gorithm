@@ -10,13 +10,15 @@
 
 ### [Programmers]
 
-| Lv  |         Title          | Difficulty |   Date   |
-| :-: | :--------------------: | :--------: | :------: |
-|  1  | [수박수박수박수박수?]  |    Easy    | 21/02/16 |
-|  1  | [가운데 글자 가져오기] |    Easy    | 21/02/16 |
+| Lv  |            Title            | Difficulty |   Date   |
+| :-: | :-------------------------: | :--------: | :------: |
+|  1  |    [수박수박수박수박수?]    |    Easy    | 21/02/16 |
+|  1  |   [가운데 글자 가져오기]    |    Easy    | 21/02/16 |
+|  1  | [나누어 떨어지는 숫자 배열] |    Easy    | 21/02/17 |
 
 <!-- 프로그래머스 -->
 
 [programmers]: https://programmers.co.kr/learn/challenges
 [수박수박수박수박수?]: https://programmers.co.kr/learn/courses/30/lessons/12922
 [가운데 글자 가져오기]: https://programmers.co.kr/learn/courses/30/lessons/12903
+[나누어 떨어지는 숫자 배열]: https://programmers.co.kr/learn/courses/30/lessons/12910
