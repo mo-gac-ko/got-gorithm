@@ -9,6 +9,13 @@
     3. 폴더는 본인 이름으로 설정 ex)0216/minho
     4. 문제 풀이는 프로그래머스 자체툴 사용 권장(프로그래머스 코딩테스트 환경과 동일)
 
+### 추천 사이트
+
+- [Programmers]
+- [GoormLevel]
+- [LeetCode]
+- [HackerRank]
+
 ### [Programmers]
 
 | Lv  |            Title            | Difficulty |                                                                    Solution                                                                    |   Date   |
@@ -20,8 +27,14 @@
 
 <!-- 프로그래머스 -->
 
-[programmers]: https://programmers.co.kr/learn/challenges
 [수박수박수박수박수?]: https://programmers.co.kr/learn/courses/30/lessons/12922
 [가운데 글자 가져오기]: https://programmers.co.kr/learn/courses/30/lessons/12903
 [나누어 떨어지는 숫자 배열]: https://programmers.co.kr/learn/courses/30/lessons/12910
 [핸드폰 번호 가리기]: https://programmers.co.kr/learn/courses/30/lessons/12948
+
+<!-- 온라인 저지 사이트 -->
+
+[programmers]: https://programmers.co.kr/learn/challenges
+[goormlevel]: https://level.goorm.io/
+[leetcode]: https://leetcode.com/problemset/all/
+[hackerrank]: https://www.hackerrank.com/dashboard
