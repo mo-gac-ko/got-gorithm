@@ -8,6 +8,7 @@ function solution(arr, divisor) {
     }
   });
   answer.sort((a, b) => a - b); // 오름차순 정렬 알고리즘
+
   if (answer.length === 0) return [-1];
   // answer가 빈 배열이라면
   else return answer;
