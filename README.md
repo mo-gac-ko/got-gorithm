@@ -16,6 +16,7 @@
 |  1  |    [수박수박수박수박수?]    |    Easy    |                                     [민호](./0216/minho/수박수박수.js) [재은](./0216/jaeeun/수박수박수.js)                                     | 21/02/16 |
 |  1  |   [가운데 글자 가져오기]    |    Easy    |                             [민호](./0216/minho/가운데글자가져오기.js) [재은](./0216/jaeeun/가운데글자가져오기.js)                             | 21/02/16 |
 |  1  | [나누어 떨어지는 숫자 배열] |    Easy    | [근희](./0217/kunhee/나누어떨어지는숫자배열.js) [민호](./0217/minho/나누어떨어지는숫자배열.js) [재은](./0217/jaeeun/나누어떨어지는숫자배열.js) | 21/02/17 |
+|  1  |    [핸드폰 번호 가리기]     |    Easy    |          [근희](./0218/kunhee/핸드폰번호가리기.js) [민호](./0218/minho/핸드폰번호가리기.js) [재은](./0218/jaeeun/핸드폰번호가리기.js)          | 21/02/18 |
 
 <!-- 프로그래머스 -->
 
@@ -23,3 +24,4 @@
 [수박수박수박수박수?]: https://programmers.co.kr/learn/courses/30/lessons/12922
 [가운데 글자 가져오기]: https://programmers.co.kr/learn/courses/30/lessons/12903
 [나누어 떨어지는 숫자 배열]: https://programmers.co.kr/learn/courses/30/lessons/12910
+[핸드폰 번호 가리기]: https://programmers.co.kr/learn/courses/30/lessons/12948
