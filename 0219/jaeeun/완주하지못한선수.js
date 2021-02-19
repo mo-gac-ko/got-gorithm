@@ -1,12 +1,13 @@
 function solution(participant, completion) {
   var answer = "";
+  participant.sort();
+  completion.sort();
+
   for (let i = 0; i < participant.length; i++) {
-    for (let j = 0; j < completion.length; j++) {
-      if (participant[i] !== completion[j]) {
-        answer = participant[i];
-        console.log(answer);
-      }
+    if (participant[i] !== completion[i]) {
+      return participant[i];
     }
+    answer = participant[i];
   }
   return answer;
 }
