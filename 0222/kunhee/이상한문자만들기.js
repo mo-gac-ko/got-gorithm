@@ -1,4 +1,4 @@
-﻿function solution(s) {
+function solution(s) {
   var answer = "";
 
   let splitByWords = [];
