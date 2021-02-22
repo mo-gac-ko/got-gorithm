@@ -6,19 +6,21 @@
 
   splitByWords = s.split(" ");
 
-  splitByWords.forEach((items, index) => {
-    let splitByChar = splitByWords[index].split("");
-    splitByChar.forEach((item, idx) => {
-      if (idx === 0 || idx % 2 === 0) {
-        changedChar.push(item.toUpperCase());
+  for (let i = 0; i < splitByWords.length; i++) {
+    let splitByChar = splitByWords[i].split("");
+    for (let i2 = 0; i2 < splitByChar.length; i2++) {
+      if (i2 === 0 || i2 % 2 === 0) {
+        changedChar.push(splitByChar[i2].toUpperCase());
       } else {
-        changedChar.push(item.toLowerCase());
+        changedChar.push(splitByChar[i2].toLowerCase());
       }
-    });
-    changedChar.push(" ");
-  });
+    }
+    if (i + 1 < splitByWords.length) {
+      changedChar.push(" ");
+    }
+  }
 
-  answer = "".concat(...changedChar).trim();
+  answer = "".concat(...changedChar);
 
   return answer;
 }
