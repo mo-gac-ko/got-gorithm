@@ -32,6 +32,8 @@
 |  1  |    [완주하지 못한 선수]     |    Easy    |          [근희](./0219/kunhee/완주하지못한선수.js) [민호](./0219/minho/완주하지못한선수.js) [재은](./0219/jaeeun/완주하지못한선수.js)          | 21/02/19 |
 |  1  |    [두 개 뽑아서 더하기]    |    Easy    |          [근희](./0222/kunhee/두개뽑아서더하기.js) [민호](./0222/minho/두개뽑아서더하기.js) [재은](./0222/jaeeun/두개뽑아서더하기.js)          | 21/02/22 |
 |  1  |    [이상한 문자 만들기]     |   Normal   |          [근희](./0222/kunhee/이상한문자만들기.js) [민호](./0222/minho/이상한문자만들기.js) [재은](./0222/jaeeun/이상한문자만들기.js)          | 21/02/22 |
+|  1  |           [내적]            |    Easy    |                            [근희](./0223/kunhee/내적.js) [민호](./0223/minho/내적.js) [재은](./0223/jaeeun/내적.js)                            | 21/02/23 |
+|  1  |         [하샤드 수]         |   Normal   |                      [근희](./0223/kunhee/하샤드수.js) [민호](./0223/minho/하샤드수.js) [재은](./0223/jaeeun/하샤드수.js)                      | 21/02/23 |
 
 <!-- 프로그래머스 -->
 
@@ -42,6 +44,8 @@
 [완주하지 못한 선수]: https://programmers.co.kr/learn/courses/30/lessons/42576
 [이상한 문자 만들기]: https://programmers.co.kr/learn/courses/30/lessons/12930
 [두 개 뽑아서 더하기]: https://programmers.co.kr/learn/courses/30/lessons/68644
+[내적]: https://programmers.co.kr/learn/courses/30/lessons/70128
+[하샤드 수]: https://programmers.co.kr/learn/courses/30/lessons/12947
 
 <!-- 온라인 저지 사이트 -->
 
