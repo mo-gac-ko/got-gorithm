@@ -34,6 +34,8 @@
 |  1  |    [이상한 문자 만들기]     |   Normal   |          [근희](./0222/kunhee/이상한문자만들기.js) [민호](./0222/minho/이상한문자만들기.js) [재은](./0222/jaeeun/이상한문자만들기.js)          | 21/02/22 |
 |  1  |           [내적]            |    Easy    |                            [근희](./0223/kunhee/내적.js) [민호](./0223/minho/내적.js) [재은](./0223/jaeeun/내적.js)                            | 21/02/23 |
 |  1  |         [하샤드 수]         |   Normal   |                      [근희](./0223/kunhee/하샤드수.js) [민호](./0223/minho/하샤드수.js) [재은](./0223/jaeeun/하샤드수.js)                      | 21/02/23 |
+|  1  |         [K번째 수]          |   Normal   |                       [근희](./0224/kunhee/k번째수.js) [민호](./0224/minho/k번째수.js) [재은](./0224/jaeeun/k번째수.js)                        | 21/02/24 |
+|  1  |        [행렬의 덧셈]        |    Easy    |                   [근희](./0224/kunhee/행렬의덧셈.js) [민호](./0224/minho/행렬의덧셈.js) [재은](./0224/jaeeun/행렬의덧셈.js)                   | 21/02/24 |
 
 <!-- 프로그래머스 -->
 
@@ -46,6 +48,8 @@
 [두 개 뽑아서 더하기]: https://programmers.co.kr/learn/courses/30/lessons/68644
 [내적]: https://programmers.co.kr/learn/courses/30/lessons/70128
 [하샤드 수]: https://programmers.co.kr/learn/courses/30/lessons/12947
+[k번째 수]: https://programmers.co.kr/learn/courses/30/lessons/42748
+[행렬의 덧셈]: https://programmers.co.kr/learn/courses/30/lessons/12950
 
 <!-- 온라인 저지 사이트 -->
 
