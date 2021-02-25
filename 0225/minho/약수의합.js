@@ -1,9 +1,11 @@
 function solution(n) {
-  let answer = 0;
+  let answer = [];
   for (let i = 0; i <= n; i++) {
-    if (n % i === 0) {
-      answer += i;
+    if (n === 0) {
+      answer.push(0);
+    } else if (n % i === 0) {
+      answer.push(i);
     }
   }
-  return answer;
+  return answer.reduce((a, b) => a + b);
 }
