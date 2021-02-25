@@ -36,8 +36,10 @@
 |  1  |         [하샤드 수]         |   Normal   |                      [근희](./0223/kunhee/하샤드수.js) [민호](./0223/minho/하샤드수.js) [재은](./0223/jaeeun/하샤드수.js)                      | 21/02/23 |
 |  1  |         [K번째 수]          |   Normal   |                       [근희](./0224/kunhee/k번째수.js) [민호](./0224/minho/k번째수.js) [재은](./0224/jaeeun/k번째수.js)                        | 21/02/24 |
 |  1  |        [행렬의 덧셈]        |    Easy    |                   [근희](./0224/kunhee/행렬의덧셈.js) [민호](./0224/minho/행렬의덧셈.js) [재은](./0224/jaeeun/행렬의덧셈.js)                   | 21/02/24 |
-|  1  |         [시저 암호]         |   Normal   |                      [근희](./0225/kunhee/시저암호.js) [민호](./0225/minho/시저암호.js) [재은](./0225/jaeeun/시저암호.js)                      | 21/02/24 |
-|  1  |         [약수의 합]         |    Easy    |                      [근희](./0225/kunhee/약수의합.js) [민호](./0225/minho/약수의합.js) [재은](./0225/jaeeun/약수의합.js)                      | 21/02/24 |
+|  1  |         [시저 암호]         |   Normal   |                      [근희](./0225/kunhee/시저암호.js) [민호](./0225/minho/시저암호.js) [재은](./0225/jaeeun/시저암호.js)                      | 21/02/25 |
+|  1  |         [약수의 합]         |    Easy    |                      [근희](./0225/kunhee/약수의합.js) [민호](./0225/minho/약수의합.js) [재은](./0225/jaeeun/약수의합.js)                      | 21/02/25 |
+|  1  |  [최대공약수와 최소공배수]  |   Normal   | [근희](./0226/kunhee/최대공약수와최소공배수.js) [민호](./0226/minho/최대공약수와최소공배수.js) [재은](./0226/jaeeun/최대공약수와최소공배수.js) | 21/02/26 |
+|  1  |      [직사각형 별찍기]      |    Easy    |             [근희](./0226/kunhee/직사각형별찍기.js) [민호](./0226/minho/직사각형별찍기.js) [재은](./0226/jaeeun/직사각형별찍기.js)             | 21/02/26 |
 
 <!-- 프로그래머스 -->
 
@@ -54,6 +56,8 @@
 [행렬의 덧셈]: https://programmers.co.kr/learn/courses/30/lessons/12950
 [시저 암호]: https://programmers.co.kr/learn/courses/30/lessons/12926
 [약수의 합]: https://programmers.co.kr/learn/courses/30/lessons/12928
+[최대공약수와 최소공배수]: https://programmers.co.kr/learn/courses/30/lessons/12940
+[직사각형 별찍기]: https://programmers.co.kr/learn/courses/30/lessons/12969
 
 <!-- 온라인 저지 사이트 -->
 
