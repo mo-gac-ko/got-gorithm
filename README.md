@@ -40,6 +40,8 @@
 |  1  |         [약수의 합]         |    Easy    |                      [근희](./0225/kunhee/약수의합.js) [민호](./0225/minho/약수의합.js) [재은](./0225/jaeeun/약수의합.js)                      | 21/02/25 |
 |  1  |  [최대공약수와 최소공배수]  |   Normal   | [근희](./0226/kunhee/최대공약수와최소공배수.js) [민호](./0226/minho/최대공약수와최소공배수.js) [재은](./0226/jaeeun/최대공약수와최소공배수.js) | 21/02/26 |
 |  1  |      [직사각형 별찍기]      |    Easy    |             [근희](./0226/kunhee/직사각형별찍기.js) [민호](./0226/minho/직사각형별찍기.js) [재은](./0226/jaeeun/직사각형별찍기.js)             | 21/02/26 |
+|  1  |           [예산]            |   Normal   |                            [근희](./0301/kunhee/예산.js) [민호](./0301/minho/예산.js) [재은](./0301/jaeeun/예산.js)                            | 21/03/01 |
+|  2  |        [가장 큰 수]         |   Normal   |                      [근희](./0301/kunhee/가장큰수.js) [민호](./0301/minho/가장큰수.js) [재은](./0301/jaeeun/가장큰수.js)                      | 21/03/01 |
 
 <!-- 프로그래머스 -->
 
@@ -58,6 +60,8 @@
 [약수의 합]: https://programmers.co.kr/learn/courses/30/lessons/12928
 [최대공약수와 최소공배수]: https://programmers.co.kr/learn/courses/30/lessons/12940
 [직사각형 별찍기]: https://programmers.co.kr/learn/courses/30/lessons/12969
+[예산]: https://programmers.co.kr/learn/courses/30/lessons/12982
+[가장 큰 수]: https://programmers.co.kr/learn/courses/30/lessons/42746
 
 <!-- 온라인 저지 사이트 -->
 
