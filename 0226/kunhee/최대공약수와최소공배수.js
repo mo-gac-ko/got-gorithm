@@ -6,11 +6,23 @@ function solution(n, m) {
   answer[1] = lcm(minNum, maxNum);
   return answer;
 }
-// 최대공약수
+/**
+ * 최대 공약수
+ *
+ * @param {*} minNum
+ * @param {*} maxNum
+ * @return {*}
+ */
 function gcd(minNum, maxNum) {
   return minNum % maxNum === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
 }
-// 최소공배수
+/**
+ * 최소 공배수
+ *
+ * @param {*} minNum
+ * @param {*} maxNum
+ * @return {*}
+ */
 function lcm(minNum, maxNum) {
   return (minNum * maxNum) / gcd(minNum, maxNum);
 }
