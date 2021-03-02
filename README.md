@@ -45,6 +45,8 @@
 |  2  |        [가장 큰 수]         |   Normal   |                      [근희](./0301/kunhee/가장큰수.js) [민호](./0301/minho/가장큰수.js) [재은](./0301/jaeeun/가장큰수.js)                      | 21/03/01 |
 |  2  |      [124 나라의 숫자]      |   Normal   |              [근희](./0302/kunhee/124나라의숫자.js) [민호](./0302/minho/124나라의숫자.js) [재은](./0302/jaeeun/124나라의숫자.js)               | 21/03/02 |
 |  2  |  [JadenCase 문자열 만들기]  |   Normal   |                    [근희](./0302/kunhee/JadenCase.js) [민호](./0302/minho/JadenCase.js) [재은](./0302/jaeeun/JadenCase.js)                     | 21/03/02 |
+|  1  |         [다트 게임]         |   Normal   |                      [근희](./0303/kunhee/다트게임.js) [민호](./0303/minho/다트게임.js) [재은](./0303/jaeeun/다트게임.js)                      | 21/03/03 |
+|  2  |       [영어 끝말잇기]       |   Normal   |                [근희](./0303/jaeeun/영어끝말잇기.js) [민호](./0303/minho/영어끝말잇기.js) [재은](./0303/jaeeun/영어끝말잇기.js)                | 21/03/03 |
 
 <!-- 프로그래머스 -->
 
@@ -67,6 +69,8 @@
 [가장 큰 수]: https://programmers.co.kr/learn/courses/30/lessons/42746
 [124 나라의 숫자]: https://programmers.co.kr/learn/courses/30/lessons/12899
 [jadencase 문자열 만들기]: https://programmers.co.kr/learn/courses/30/lessons/12951
+[다트 게임]: https://programmers.co.kr/learn/courses/30/lessons/17682
+[영어 끝말잇기]: https://programmers.co.kr/learn/courses/30/lessons/12981
 
 <!-- 온라인 저지 사이트 -->
 
