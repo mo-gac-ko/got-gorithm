@@ -1,14 +1,18 @@
 function solution(s) {
-  let answer = [];
-  let stringArray = s.split(" ");
-  stringArray.forEach((item) => {
-    for (let i = 0; i < item.length; i++) {
-      if (i % 2 === 0) {
-        answer.push(item[i].toUpperCase());
-      } else {
-        answer.push(item[i]);
-      }
-    }
-  });
+  let answer = "";
+  answer = s
+    .toLowerCase()
+    .split(" ")
+    .map((word) => {
+      const chars = word
+        .split("")
+        .map((char, idx) => {
+          if (idx === 0 || idx % 2 === 0) return char.toUpperCase();
+          else return char;
+        })
+        .join("");
+      return chars;
+    })
+    .join(" ");
   return answer;
 }
