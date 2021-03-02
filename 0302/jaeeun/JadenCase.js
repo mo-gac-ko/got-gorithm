@@ -1,6 +1,6 @@
 function solution(s) {
   var answer = "";
-  return s
+  answer = s
     .split(" ")
     .map((word) => {
       return word
@@ -9,4 +9,5 @@ function solution(s) {
         .join("");
     })
     .join(" ");
+  return answer;
 }
