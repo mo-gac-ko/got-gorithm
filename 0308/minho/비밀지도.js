@@ -14,9 +14,7 @@ function solution(n, arr1, arr2) {
   for (let i = 0; i < n; i++) {
     let code = "";
     for (let j = 0; j < n; j++) {
-      if (toBinaryArr1[i][j] === "1" || toBinaryArr2[i][j] === "1") {
-        code += "#";
-      } else code += " ";
+      toBinaryArr1[i][j] === "1" || toBinaryArr2[i][j] === "1" ? (code += "#") : (code += " ");
     }
     answer.push(code);
   }
