@@ -48,6 +48,7 @@
 |  1  |         [다트 게임]         |   Normal   |                      [근희](./0303/kunhee/다트게임.js) [민호](./0303/minho/다트게임.js) [재은](./0303/jaeeun/다트게임.js)                      | 21/03/03 |
 |  2  |       [영어 끝말잇기]       |   Normal   |                [근희](./0303/kunhee/영어끝말잇기.js) [민호](./0303/minho/영어끝말잇기.js) [재은](./0303/jaeeun/영어끝말잇기.js)                | 21/03/03 |
 |  1  |         [비밀지도]          |   Normal   |                      [근희](./0308/kunhee/비밀지도.js) [민호](./0308/minho/비밀지도.js) [재은](./0308/jaeeun/비밀지도.js)                      | 21/03/08 |
+|  1  |          [폰켓몬]           |   Normal   |                         [근희](./0309/kunhee/폰켓몬.js) [민호](./0309/minho/폰켓몬.js) [재은](./0309/jaeeun/폰켓몬.js)                         | 21/03/09 |
 
 <!-- 프로그래머스 -->
 
@@ -73,6 +74,7 @@
 [다트 게임]: https://programmers.co.kr/learn/courses/30/lessons/17682
 [영어 끝말잇기]: https://programmers.co.kr/learn/courses/30/lessons/12981
 [비밀지도]: https://programmers.co.kr/learn/courses/30/lessons/17681
+[폰켓몬]: https://programmers.co.kr/learn/courses/30/lessons/1845
 
 <!-- 온라인 저지 사이트 -->
 
