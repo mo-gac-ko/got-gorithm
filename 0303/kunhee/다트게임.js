@@ -1,9 +1,13 @@
 function solution(dartResult) {
   var answer = 0;
+
+  /**
+   * 한글자씩 나누어 담은 배열
+   */
   let tmp = dartResult.split("");
 
   /**
-   * 한글자씩 체크할때 슬 변수
+   * 한글자씩 체크할때 쓸 변수
    */
   let answerChar = "";
 
