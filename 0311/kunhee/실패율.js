@@ -7,19 +7,42 @@ function solution(N, stages) {
   stages.sort();
 
   let failureRateArr = [];
+  for (let index = 0; index < N + 1; index++) {
+    failureRateArr.push({
+      stage: index + 1,
+      unClearedUserCnt: 0,
+      clearedUserCnt: 0,
+      failRate: 0,
+    });
+  }
 
   var answer = [];
 
   for (let index = 0; index < stages.length; index++) {
-    for (let index2 = 0; index2 < failureRateArr.length; index2++) {
-      if (stages[index] - 1 === index2) {
-        failureRateArr[stages[index] - 1] !== undefined
-          ? (failureRateArr[stages[index] - 1] += 1)
-          : (failureRateArr[stages[index] - 1] = 1);
-      }
-    }
+    failureRateArr.filter((item) => {
+      item.stage === stages[index] && item.unClearedUserCnt++;
+    });
   }
 
-  console.log(failureRateArr);
+  let tmpAddCnt = 0;
+  for (let index = failureRateArr.length - 1; index >= 0; index--) {
+    failureRateArr[index].clearedUserCnt = tmpAddCnt;
+    tmpAddCnt += failureRateArr[index].unClearedUserCnt;
+    failureRateArr[index].failRate =
+      failureRateArr[index].unClearedUserCnt /
+      (failureRateArr[index].clearedUserCnt +
+        failureRateArr[index].unClearedUserCnt);
+  }
+  // console.log(failureRateArr);
+
+  failureRateArr = failureRateArr.filter((item) => {
+    return item.stage <= N && item;
+  });
+  failureRateArr.sort((a, b) => {
+    return b.failRate - a.failRate;
+  });
+  failureRateArr.map((item) => answer.push(item.stage));
+
+  // console.log(failureRateArr);
   return answer;
 }
