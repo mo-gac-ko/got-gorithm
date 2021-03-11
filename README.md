@@ -50,6 +50,7 @@
 |  1  |         [비밀지도]          |   Normal   |                      [근희](./0308/kunhee/비밀지도.js) [민호](./0308/minho/비밀지도.js) [재은](./0308/jaeeun/비밀지도.js)                      | 21/03/08 |
 |  1  |          [폰켓몬]           |   Normal   |                         [근희](./0309/kunhee/폰켓몬.js) [민호](./0309/minho/폰켓몬.js) [재은](./0309/jaeeun/폰켓몬.js)                         | 21/03/09 |
 |  2  |       [큰 수 만들기]        |   Normal   |                   [근희](./0310/kunhee/큰수만들기.js) [민호](./0310/minho/큰수만들기.js) [재은](./0310/jaeeun/큰수만들기.js)                   | 21/03/10 |
+|  2  |          [실패율]           |   Normal   |                         [근희](./0311/kunhee/실패율.js) [민호](./0311/minho/실패율.js) [재은](./0311/jaeeun/실패율.js)                         | 21/03/11 |
 
 <!-- 프로그래머스 -->
 
@@ -77,6 +78,7 @@
 [비밀지도]: https://programmers.co.kr/learn/courses/30/lessons/17681
 [폰켓몬]: https://programmers.co.kr/learn/courses/30/lessons/1845
 [큰 수 만들기]: https://programmers.co.kr/learn/courses/30/lessons/42883
+[실패율]: https://programmers.co.kr/learn/courses/30/lessons/42889
 
 <!-- 온라인 저지 사이트 -->
 
