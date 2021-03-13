@@ -38,3 +38,18 @@ function solution(brown, yellow) {
 
   return answer;
 }
+
+function solution(brown, yellow) {
+  const answer = [];
+  const rc_sum = Math.floor(brown / 2) + 2;
+  const rc_mul = brown + yellow;
+  for (let r = Math.floor(rc_mul / 2); r >= 3; --r) {
+    const c = Math.floor(rc_mul / r);
+    if (rc_mul % r == 0 && r + c == rc_sum) {
+      answer[0] = r;
+      answer[1] = c;
+      break;
+    }
+  }
+  return answer;
+}
