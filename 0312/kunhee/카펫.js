@@ -1,3 +1,4 @@
+// 내가 푼 답 (4,6,7번 틀림)
 function solution(brown, yellow) {
   var answer = [];
 
@@ -39,6 +40,7 @@ function solution(brown, yellow) {
   return answer;
 }
 
+// 정답()
 function solution(brown, yellow) {
   const answer = [];
   const rc_sum = Math.floor(brown / 2) + 2;
