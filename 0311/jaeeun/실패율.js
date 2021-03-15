@@ -9,7 +9,7 @@ function solution(N, stages) {
     // 실패한 인원
     let failed = stages.filter((current) => current === i + 1).length;
 
-    //console.log("trial",trial);
+    // console.log("trial",trial);
     // console.log("fail",failed):
 
     // 객체에 저장 stage: 스테이지 번호, rate: 실패율= 실패인원/도전인원
