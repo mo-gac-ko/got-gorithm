@@ -6,7 +6,6 @@ function solution(clothes) {
       count[item[1]] += 1;
     } else count[item[1]] = 1;
   });
-
   for (let i in count) {
     answer *= count[i] + 1;
   }
