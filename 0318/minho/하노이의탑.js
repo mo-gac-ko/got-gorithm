@@ -1,13 +1,14 @@
-function solution(clothes) {
-  var answer = 1;
-  let count = {};
-  clothes.map((item) => {
-    if (item[1] in count) {
-      count[item[1]] += 1;
-    } else count[item[1]] = 1;
-  });
-  for (let i in count) {
-    answer *= count[i] + 1;
-  }
-  return answer - 1;
-}
+// Run by Node.js
+
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.on("line", function (line) {
+  console.log(line);
+  rl.close();
+}).on("close", function () {
+  process.exit();
+});
