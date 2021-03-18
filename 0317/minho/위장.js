@@ -1,5 +1,5 @@
 function solution(clothes) {
-  let answer = 0;
+  let answer = 1;
   let options = {};
 
   // 옷의 종류별로 갯수 카운팅
@@ -12,7 +12,8 @@ function solution(clothes) {
       options[cloth[1]] = 1;
     }
   });
-  console.log(options);
-
-  return answer;
+  for (let key in count) {
+    answer *= count[key] + 1;
+  }
+  return answer - 1;
 }
