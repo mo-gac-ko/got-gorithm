@@ -54,8 +54,9 @@
 |  2  |           [카펫]            |   Normal   |                            [근희](./0312/kunhee/카펫.js) [민호](./0312/minho/카펫.js) [재은](./0312/jaeeun/카펫.js)                            | 21/03/12 |
 |  2  |        [오픈채팅방]         |   Normal   |                   [근희](./0315/kunhee/오픈채팅방.js) [민호](./0315/minho/오픈채팅방.js) [재은](./0315/jaeeun/오픈채팅방.js)                   | 21/03/15 |
 |  2  |         [스킬트리]          |   Normal   |                      [근희](./0316/kunhee/스킬트리.js) [민호](./0316/minho/스킬트리.js) [재은](./0316/jaeeun/스킬트리.js)                      | 21/03/16 |
-|  2  |           [위장]            |   Normal   |                            [근희](./0317/kunhee/위장.js) [민호](./0317/minho/위장.js) [재은](./0317/minho/위장.js)                             | 21/03/17 |
-|  2  |        [하노이의탑]         |   Normal   |                   [근희](./0318/kunhee/하노이의탑.js) [민호](./0318/minho/하노이의탑.js) [재은](./0318/minho/하노이의탑.js)                    | 21/03/17 |
+|  2  |           [위장]            |   Normal   |                            [근희](./0317/kunhee/위장.js) [민호](./0317/minho/위장.js) [재은](./0317/jaeeun/위장.js)                            | 21/03/17 |
+|  2  |        [하노이의탑]         |   Normal   |                   [근희](./0318/kunhee/하노이의탑.js) [민호](./0318/minho/하노이의탑.js) [재은](./0318/jaeeun/하노이의탑.js)                   | 21/03/17 |
+|  1  |     [신규 아이디 추천]      |   Normal   |             [근희](./0323/kunhee/신규아이디추천.js) [민호](./0323/minho/신규아이디추천.js) [재은](./0323/jaeeun/신규아이디추천.js)             | 21/03/23 |
 
 <!-- 프로그래머스 -->
 
@@ -89,6 +90,7 @@
 [스킬트리]: https://programmers.co.kr/learn/courses/30/lessons/49993
 [위장]: https://programmers.co.kr/learn/courses/30/lessons/42578
 [하노이의탑]: https://level.goorm.io/exam/43223/%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98-%ED%83%91/quiz/1
+[신규 아이디 추천]: https://programmers.co.kr/learn/courses/30/lessons/72410
 
 <!-- 온라인 저지 사이트 -->
 
