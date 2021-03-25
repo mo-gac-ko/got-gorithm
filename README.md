@@ -59,7 +59,7 @@
 |  1  |     [신규 아이디 추천]      |   Normal   |             [근희](./0323/kunhee/신규아이디추천.js) [민호](./0323/minho/신규아이디추천.js) [재은](./0323/jaeeun/신규아이디추천.js)             | 21/03/23 |
 |  1  |         [소수 찾기]         |   Normal   |                      [근희](./0325/kunhee/소수찾기.js) [민호](./0325/minho/소수찾기.js) [재은](./0325/jaeeun/소수찾기.js)                      | 21/03/25 |
 
-<!-- 프로그래머스 -->ㄴ
+<!-- 프로그래머스 -->
 
 [수박수박수박수박수?]: https://programmers.co.kr/learn/courses/30/lessons/12922
 [가운데 글자 가져오기]: https://programmers.co.kr/learn/courses/30/lessons/12903
