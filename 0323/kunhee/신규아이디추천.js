@@ -1,24 +1,30 @@
 function solution(new_id) {
-  let id_validation = new_id
-    .toLowerCase()
-    .replace(/[^\a-z0-9-_.]/g, "")
-    .replace(/\.+/g, ".")
-    .replace(/^\.+|\.$/g, "");
+  //정규식 사용한 풀이방법
+  const answer = new_id
+    .toLowerCase() // 1
+    .replace(/[^\w-_.]/g, "") // 2
+    .replace(/\.+/g, ".") // 3
+    .replace(/^\.|\.$/g, "") // 4
+    .replace(/^$/, "a") // 5
+    .slice(0, 15)
+    .replace(/\.$/, ""); // 6
+  const len = answer.length;
+  return len > 2 ? answer : answer + answer.charAt(len - 1).repeat(3 - len);
+}
 
-  if (id_validation.length === 0) {
-    id_validation = "a";
+//정규식 사용하지 않은 풀이방법
+function solution(nid) {
+  var ans = "";
+  for (let i = 0; i < nid.length; i++) {
+    let c = nid[i].toLowerCase();
+    if ("0123456789abcdefghijklmnopqrstuvwxyz.-_".indexOf(c) === -1) continue;
+    if (c === "." && ans[ans.length - 1] === "." && nid[i - 1]) continue;
+    ans += c;
   }
-
-  if (id_validation.length > 15) {
-    id_validation = id_validation.substring(0, 15).replace(/\.$/g, "");
-  }
-
-  let lastString = id_validation.substring(id_validation.length - 1);
-  if (id_validation.length <= 2) {
-    for (let i = id_validation.length; i < 3; i++) {
-      id_validation = id_validation + lastString;
-    }
-  }
-
-  return id_validation;
+  if (ans[0] === ".") ans = ans.slice(1);
+  ans = ans.slice(0, 15);
+  if (ans[ans.length - 1] === ".") ans = ans.slice(0, ans.length - 1);
+  if (!ans) ans = "a";
+  while (ans.length < 3) ans += ans[ans.length - 1];
+  return ans;
 }
