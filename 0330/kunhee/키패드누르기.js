@@ -2,11 +2,11 @@ function solution(numbers, hand) {
   var answer = "";
 
   let CurrentLeft = {
-    x: 3,
-    y: 0,
+    x: 0,
+    y: 3,
   };
   let CurrentRight = {
-    x: 3,
+    x: 2,
     y: 3,
   };
 
@@ -31,6 +31,9 @@ function solution(numbers, hand) {
       numbers[index] === 0
     ) {
       // console.log(getLocation(numbers[index]));
+      // console.log(CurrentLeft);
+      // console.log(CurrentRight);
+
       let willPushNumber = getLocation(numbers[index]);
 
       //왼손과 가운데 누를 패드와의 거리 재기
@@ -40,26 +43,29 @@ function solution(numbers, hand) {
       //오른손과 가운데 누를 패드와의 거리 재기
       let distanceRightX = Math.abs(willPushNumber.x - CurrentRight.x); //abs는 음수면 양수전환하는 메소드
       let distanceRightY = Math.abs(willPushNumber.y - CurrentRight.y); //abs는 음수면 양수전환하는 메소드
+      // console.log("왼손 :" + distanceLeftX + " , " + distanceLeftY);
+      // console.log("오른손 : " + distanceRightX + " , " + distanceRightY);
 
-      if (
-        distanceLeftX ** 2 + distanceLeftY ** 2 >
-        distanceRightX ** 2 + distanceRightY ** 2
-      ) {
+      if (distanceLeftX + distanceLeftY > distanceRightX + distanceRightY) {
         //왼손 거리가 더 크면 오른손으로 눌러야함.
         answer += "R";
+        CurrentRight = willPushNumber;
       } else if (
-        distanceLeftX ** 2 + distanceLeftY ** 2 <
-        distanceRightX ** 2 + distanceRightY ** 2
+        distanceLeftX + distanceLeftY <
+        distanceRightX + distanceRightY
       ) {
         //오른손 거리가 더 크면 왼손으로 눌러야함.
         answer += "L";
+        CurrentLeft = willPushNumber;
       } else {
         //거리가 같다면?
         if (hand === "left") {
           //왼손잡이면 왼손으로 눌러야함
           answer += "L";
+          CurrentLeft = willPushNumber;
         } else {
           answer += "R";
+          CurrentRight = willPushNumber;
         }
       }
     }
