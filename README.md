@@ -59,6 +59,7 @@
 |  1  |     [신규 아이디 추천]      |   Normal   |             [근희](./0323/kunhee/신규아이디추천.js) [민호](./0323/minho/신규아이디추천.js) [재은](./0323/jaeeun/신규아이디추천.js)             | 21/03/23 |
 |  1  |         [소수 찾기]         |   Normal   |                      [근희](./0325/kunhee/소수찾기.js) [민호](./0325/minho/소수찾기.js) [재은](./0325/jaeeun/소수찾기.js)                      | 21/03/25 |
 |  1  |       [키패드 누르기]       |   Normal   |                [근희](./0330/kunhee/키패드누르기.js) [민호](./0330/minho/키패드누르기.js) [재은](./0330/jaeeun/키패드누르기.js)                | 21/03/30 |
+|  1  |          [체육복]           |   Normal   |                         [근희](./0401/kunhee/체육복.js) [민호](./0401/minho/체육복.js) [재은](./0401/jaeeun/체육복.js)                         | 21/04/01 |
 
 <!-- 프로그래머스 -->
 
@@ -95,6 +96,7 @@
 [신규 아이디 추천]: https://programmers.co.kr/learn/courses/30/lessons/72410
 [소수 찾기]: https://programmers.co.kr/learn/courses/30/lessons/12921
 [키패드 누르기]: https://programmers.co.kr/learn/courses/30/lessons/67256
+[체육복]: https://programmers.co.kr/learn/courses/30/lessons/42862
 
 <!-- 온라인 저지 사이트 -->
 
